@@ -1,6 +1,6 @@
 #makefile
-staticFiles = matrix_static.c test_static.c
+staticFiles = matrix_static.c main.cpp
 name = main
 
 static:
-	gcc $(staticFiles) -o $(name)
+	g++ $(staticFiles) -o $(name)

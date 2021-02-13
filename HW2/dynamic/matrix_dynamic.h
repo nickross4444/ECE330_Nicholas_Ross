@@ -27,6 +27,7 @@ matrix subtract(matrix, matrix);
 matrix negate(matrix);
 matrix multiply(matrix, matrix);
 matrix scalar_multiply(T scalar, matrix);
+matrix transpose(matrix m);
 /* remaining function prototypes not shown */
 
 #endif

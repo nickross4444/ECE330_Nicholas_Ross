@@ -1,5 +1,5 @@
 #makefile
-dynamicFiles = matrix_dynamic.c test_dynamic.c
+dynamicFiles = matrix_dynamic.c main.cpp
 name = main
-dynamic:
-	gcc $(dynamicFiles) -o $(name)
+dynamic: 
+	g++ $(dynamicFiles) -o $(name)
