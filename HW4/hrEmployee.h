@@ -15,7 +15,7 @@ public:
   float getHrs() const;			
   void setOvertimeHrs(const float );			
   float getOvertimeHrs() const;			
-  void printHrEmployee();
+  void printEmployee();
   float calcSal(float, float = 0); 
   
 private:

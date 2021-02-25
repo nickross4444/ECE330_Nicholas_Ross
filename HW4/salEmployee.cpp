@@ -30,9 +30,14 @@ float SalEmployee::getFraction() const
 {
 	return fraction;
 }
-void SalEmployee::printSalEmployee()
+void SalEmployee::printEmployee()
 {
-	printEmployee();
+	//printEmployee();
+	cout << endl;
+	cout << "Employee ID Number: " << getIdNum() << endl;
+	cout << "Name: " << getLastName() <<", " << getFirstName() << " " <<
+		getMiddleInitial() <<"." << endl;
+	cout << "Dept Code: " << getDeptCode () << endl;	
 	cout << "Salary: "<< salary<<"\n";
 	cout << "Actual Salary: "<< calcSal(1)<<"\n";
 

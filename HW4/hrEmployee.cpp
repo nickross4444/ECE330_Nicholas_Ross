@@ -33,9 +33,14 @@ float HrEmployee::getHrs() const
 {
 	return hrs;
 }
-void HrEmployee::printHrEmployee()
+void HrEmployee::printEmployee()
 {
-	printEmployee();
+	//printEmployee();
+        cout << endl;
+        cout << "Employee ID Number: " << getIdNum() << endl;
+        cout << "Name: " << getLastName() <<", " << getFirstName() << " " <<
+	                getMiddleInitial() <<"." << endl;
+        cout << "Dept Code: " << getDeptCode () << endl;	
 	cout << "Rate: "<< hourlyRate<<"\n";
 	cout << "Hours:" << hrs<<"\n";
 	cout << "Overtime Hours:" << overtimeHrs<<"\n";
