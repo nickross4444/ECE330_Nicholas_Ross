@@ -22,7 +22,7 @@ class Employee
 		string getMiddleInitial () const;		// return set middle initial
 		void setDeptCode(const int);			// set department code
 		int getDeptCode () const;				// get department code
-		void printEmployee ();				// print Employee information
+		virtual void printEmployee ();				// print Employee information
 
 
 
