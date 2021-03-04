@@ -35,12 +35,12 @@ float HrEmployee::getHrs() const
 }
 void HrEmployee::printEmployee()
 {
-	//printEmployee();
-        cout << endl;
-        cout << "Employee ID Number: " << getIdNum() << endl;
-        cout << "Name: " << getLastName() <<", " << getFirstName() << " " <<
-	                getMiddleInitial() <<"." << endl;
-        cout << "Dept Code: " << getDeptCode () << endl;	
+	Employee::printEmployee();
+        //cout << endl;
+        //cout << "Employee ID Number: " << getIdNum() << endl;
+        //cout << "Name: " << getLastName() <<", " << getFirstName() << " " <<
+	 //               getMiddleInitial() <<"." << endl;
+        //cout << "Dept Code: " << getDeptCode () << endl;	
 	cout << "Rate: "<< hourlyRate<<"\n";
 	cout << "Hours:" << hrs<<"\n";
 	cout << "Overtime Hours:" << overtimeHrs<<"\n";
