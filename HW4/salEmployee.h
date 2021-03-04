@@ -13,7 +13,7 @@ public:
   float getSal() const;			
   void setFraction(const float );			
   float getFraction() const;			
-  virtual void printEmployee();
+  void printEmployee();
   float calcSal(float); 
   
 private:
