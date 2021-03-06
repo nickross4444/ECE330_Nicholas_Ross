@@ -10,7 +10,7 @@
 using namespace std;
 SalEmployee::SalEmployee(long id, const string &last, const string &first, const string &initial, int dept, float _salary, float _fraction):Employee(id, last, first, initial, dept)
 {
-	salary = _salary;
+	salary = _salary;	//note: replace with member initializers
 	fraction = _fraction;
 }
 
