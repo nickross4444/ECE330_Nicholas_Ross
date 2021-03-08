@@ -4,7 +4,7 @@
 
 #include"employee.h"
 
-class SalEmployee : Employee
+class SalEmployee : public Employee
 {
 public:
   SalEmployee(long = 0, const string & ="" , const string & ="", const string & = "", int =0, float = 0, float = 1.0) ;	// constructor
